@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  memorycardgenshinimpact:
+    image: simplecreateyourcv
+    build:
+      context: .
+      dockerfile: ./Dockerfile
