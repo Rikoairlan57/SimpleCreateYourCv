@@ -24,5 +24,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-non-null-assertion": "off",
     "react-refresh/only-export-components": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
   },
 };
