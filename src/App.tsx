@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black flex min-h-screen items-center justify-center gap-4">
       <h1 className="text-3xl font-bold underline text-center text-white">
-        Hello world!
+        stater page
       </h1>
     </div>
   );
