@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Dots } from "./Dots";
-import { Button } from "../../utils";
+import { Button } from "../../Utils";
 import {
   RiAddLine,
   RiEditLine,

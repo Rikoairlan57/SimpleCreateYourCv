@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Navigator } from "./Navigator";
 import { Input } from "./Input";
 import { Skill } from "./Skill";
-import { Button } from "../../utils";
+import { Button } from "../../Utils";
 import { EditorContext, RiAddLine, RiDeleteBinLine } from "../../../common";
 import type {
   ISkill,

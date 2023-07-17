@@ -1,5 +1,5 @@
 import { Header, Form, Navigator } from "./components";
-import { Github } from "../utils";
+import { Github } from "../Utils";
 import type { IEditorSections, IInputField, SectionsName } from "../../types";
 
 interface EditorProps {
