@@ -1,3 +1,5 @@
+import { Editor, Preview, Toggle } from "./components";
+
 function App() {
   return (
     <div className="bg-black flex min-h-screen items-center justify-center gap-4">
