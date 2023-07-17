@@ -26,5 +26,6 @@ module.exports = {
     "react-refresh/only-export-components": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
   },
 };
