@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { Button } from "../../utils";
+import { Button } from "../../Utils";
 import { RiDeleteBinLine } from "../../../common";
 
 interface SkillProps {

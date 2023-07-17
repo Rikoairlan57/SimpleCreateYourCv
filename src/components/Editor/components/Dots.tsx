@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Button } from "../../utils";
+import { Button } from "../../Utils";
 import { EditorContext } from "../../../common";
 import type {
   IListFormNames,
