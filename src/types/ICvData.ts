@@ -33,7 +33,7 @@ export interface ISkill {
   placeholder: string;
 }
 
-export type IFormList = IContactPart | IExperiencePart;
+export type IFormList = IEducationPart | IExperiencePart;
 export type IFormLists = Array<IEducationPart | IExperiencePart>;
 export type IIterableForms = Array<IEducationPart | IExperiencePart | ISkill>;
 
