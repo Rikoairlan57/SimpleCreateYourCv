@@ -37,6 +37,7 @@ export function Aside() {
               Icon = RiPhoneLine;
               break;
           }
+
           return <IconDetails Icon={Icon} label={value} key={index} />;
         })}
       </Section>

@@ -5,3 +5,7 @@
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+button > svg {
+  @apply -m-2;
+}

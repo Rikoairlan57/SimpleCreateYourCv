@@ -1,12 +1,12 @@
 import { Button } from "./Button";
 import { RiEyeLine, RiEyeOffLine } from "../../common";
 
-interface TogglePreViewProps {
+interface TogglePreviewProps {
   isPreviewMode: boolean;
   onClick: () => void;
 }
 
-export function Toggle({ isPreviewMode, onClick }: TogglePreViewProps) {
+export function Toggle({ isPreviewMode, onClick }: TogglePreviewProps) {
   const [Icon, label] = isPreviewMode
     ? [RiEyeOffLine, "Editor"]
     : [RiEyeLine, "Preview"];

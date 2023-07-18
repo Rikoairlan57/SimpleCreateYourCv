@@ -10,11 +10,7 @@ export function Github() {
       target="_blank"
       tabIndex={-1}
     >
-      <Button
-        className="normal-case"
-        Icon={RiGithubLine}
-        label="Rikoairlan57"
-      />
+      <Button className="normal-case" Icon={RiGithubLine} label="Rikoairlan" />
     </a>
   );
 }

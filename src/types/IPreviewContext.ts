@@ -2,7 +2,7 @@ import type { IEducationPart, IExperiencePart, ISkill } from "./ICvData";
 
 export interface IMainData {
   profile: string;
-  experience: IExperiencePart;
+  experience: IExperiencePart[];
 }
 
 export interface IAsideData {
