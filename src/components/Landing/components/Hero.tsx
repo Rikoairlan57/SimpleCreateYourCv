@@ -1,4 +1,4 @@
-import { robot } from "../../../assets";
+import { herocv } from "../../../assets";
 import { GetStarted } from "../components";
 
 export function Hero() {
@@ -28,7 +28,7 @@ export function Hero() {
 
       <div className="flex-1 flex justify-center items-center md:my-0 my-10 relative">
         <img
-          src={robot}
+          src={herocv}
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5]"
         />
