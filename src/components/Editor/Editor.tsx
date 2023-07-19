@@ -1,5 +1,5 @@
 import { Header, Form, Navigator } from "./components";
-import { Github } from "../Utils";
+
 import type { IEditorSections, IInputField, SectionsName } from "../../types";
 
 interface EditorProps {
@@ -32,7 +32,7 @@ export function Editor({
               : "[grid-template-rows:auto_1fr_auto_auto]"
             : "[grid-template-rows:auto_1fr_auto]"
         } relative grid h-[535px] gap-4 rounded-lg bg-main-color 
-          p-6 font-kumbh-san sm:h-[555px] sm:p-8`}
+          p-6 font-kumbh-san lg:h-[555px] sm:p-8`}
       >
         <Header editorName={editorName} />
         <Form inputFields={inputFields} editorName={editorName} />
@@ -42,7 +42,6 @@ export function Editor({
           inEditorSection
         />
       </div>
-      <Github />
     </div>
   );
 }
