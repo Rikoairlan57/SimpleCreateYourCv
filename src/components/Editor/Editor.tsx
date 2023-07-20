@@ -1,6 +1,7 @@
 import { Header, Form, Navigator } from "./components";
 
 import type { IEditorSections, IInputField, SectionsName } from "../../types";
+import { Cancel } from "../Utils";
 
 interface EditorProps {
   editorName: SectionsName;
@@ -42,6 +43,7 @@ export function Editor({
           inEditorSection
         />
       </div>
+      <Cancel />
     </div>
   );
 }
