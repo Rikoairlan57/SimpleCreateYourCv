@@ -17,11 +17,8 @@ interface SkillProps {
 
 export function Skill({
   id,
-  wide,
   type,
-  label,
   value,
-  textarea,
   placeholder,
   sectionLength,
   deleteSkill,
